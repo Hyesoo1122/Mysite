@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+
+<head>
+
+<link rel= "stylesheet" href= "1212.css"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Favourite Place </title>
+
+<style>
+    @import url(1212.css); 
+     
+</style>
+
+
+<style type="text/css">
+    
+    h2{color: black; font-family: Baloo; font-size: 20pt; margin-left:30px}
+    
+</style>
+</head>
+
+<body>  
+
+    <div class="header">
+        <h1> HYESOO'S FAVOURITE PLACE ☺︎ </h1> 
+        <a href="FavouriteThings.html"><img class="myimage" src="favourite.png" alt="homepage" ></a>
+        <a href="About me.html"><img class="myimage" src="person.png" alt="homepage" ></a>
+        <a href="Mainpage.html"><img class="myimage" src="homepage.png" alt="homepage"></a>
+        <br>
+        <Br>
+    </div>
+
+<h2> Australia </h2>
+<div class="slideshow-container">
+
+   
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 10</div>
+      <img src="Brisbane.JPG" style="width:100%">
+      <div class="text"> Brisbane </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 10</div>
+      <img src="Southbank.JPG" style="width:100%">
+      <div class="text"> Southbank </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 10</div>
+      <img src="Skydive.JPG" style="width:100%">
+      <div class="text"> Skydive Byron Bay</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 10</div>
+        <img src="Lonepine Koala3.jpg" style="width:100%">
+        <div class="text"> Lone Pine Koala Sanctuary </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5/ 10</div>
+        <img src="StoryBridge.JPG" style="width:100%">
+        <div class="text"> Story Bridge </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 10</div>
+        <img src="Operahouse1.JPG" style="width:100%">
+        <div class="text"> Sydney Opera House </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 10</div>
+        <img src="Habour bridge.JPG" style="width:100%">
+        <div class="text"> Habour Bridge </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 10</div>
+        <img src="Iceberg pool.JPG" style="width:100%">
+        <div class="text"> Bondi Beach </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 10</div>
+        <img src="Kings Tableland.JPG" style="width:100%">
+        <div class="text"> Kings Tableland </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10 / 10</div>
+        <img src="Australia Day.JPG" style="width:100%">
+        <div class="text"> Australia Day in Sydney </div>
+    </div> 
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+  <br>
+  
+  
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br>
+<p style="text-align: center; margin: 45px"> 
+    The reason why I chose <span class="class4"> Australia </span> as my favourite country was because 
+    it was my first travel destination after I became an adult, 
+    and people seemed to know how to relax and seemed free. 
+    People ride skateboards, surf in the sea, lie on the beach and tanning. 
+    It was a sight that could not be seen in our country. 
+    For some reason, it was a country that made me feel at ease.
+    Although the travel period was only two weeks, 
+    I could feel that people were considerate and valued courtesy. 
+    I miss my trip to Australia so much now.
+</p>
+<br>
+<hr>
+<h3 class="cena"> Brisbane </h3>
+
+<ul class="a">
+
+    <li><h4>  Lone Pine Koala Sanctuary </h4></li>
+
+        <p> <a class="cece" href="https://koala.net/"><img class="cena1" src="Lonepine Koala.JPG" alt="Koala" Style="width:200px; height:250px; margin-right:15px;"></a> 
+            <br><br>
+            The reason why I chose <span class="class2"> Ron Pine Koala Sanctuary </span> as one of my favourite places is that 
+            I could see kangaroos and koalas that I have always dreamed of. 
+            Korean zoos have animals almost locked in bars or fences, but Australian zoos have not. 
+            It was so shocking that there was a zoo that could run around with kangaroos and give them snacks. 
+            Also, there was a koala hugging experience. 
+            I was embarrassed because the koala was heavier than I thought, but I still feel vivid when I hug it.</p>
+            <br><br><br><Br><br><Br><br>
+
+    <li><h4> Skydive Australia Byron Bay </h4> </li>
+
+        <p> <a class="cece" href="https://www.skydive.com.au/byron-bay/prices-packages/?gclid=CjwKCAjw4_H6BRALEiwAvgfzq6SnmOVVJNyHEQxlm5K3IANJ-EitnpEkxxLp1FagbVYQChRlp557pxoC08QQAvD_BwE"><img class="cena1" src="Byron Bay.JPG" alt="Skydive" style="width: 200px; height:250px; margin-right:15px;"></a>
+            <br><br>
+            I experienced my first <span class="class1"> skydiving </span> in my life at Byron Bay in New South Wales, Australia. 
+            There was not much fear of heights, so expectations were much higher than tensions.  
+            The helicopter stopped at 15,000 feet and jumped against the backdrop of a great view. 
+            The weather was so nice and the scenery was even better. 
+            Behind me, the person who helped me took a video with a GoPro on his wrist. 
+            Sometimes I watch the video and enjoy the feeling of that time. 
+            When I go to Australia again, I want to try again.
+            This place means a lot to my first skydiving challenge, and it's also a wonderful place. 
+        </p> 
+    <br><br><br><br>
+
+</ul>
+<hr>
+
+<h3 class="cena"> Sydney </h3>
+
+<ul class="a">
+    
+    <li><h4><a class="cece" href ="https://int.sydney.com/things-to-do/beach-lifestyle/bondi-beach" > Bondi Beach </a></h4></li>
+
+        <p> <img class="cena1" src= "Bondibeach2.JPG " alt="Bondi-beach" style="width:200px; height:250px; margin-right:15px;">
+            <br><br>
+            My favourite place and most memorable place for me is <span class="class3"> Bondi Beach </span>in Sydney.  
+            The reason was that I could see the Iceberg swimming pool and the sea at a glance, 
+            and for some reason, the watercolour of the Iceberg swimming pool was emerald which is so beautiful colour. 
+            The colours of the pool and the sea are similar but different, so the more beautiful picture is flushed. 
+            We could get waves in the Iceberg swimming pool and it was a special attraction that only the pool had. 
+            Also, I learned how to surf at Bondi Beach. It was hard, but it was very special and fun for me. 
+            I couldn't try surfing in my country because I was afraid it would ruin the image of Bondi Beach in my head.  
+            It is a place where I had a special experience, so I think it is more memorable.</p>
+</ul>
+<br><br><br><br><br>
+
+
+
+
+<a style="display:scroll;position:fixed;bottom:10px;right:10px;" href="#" title="Top">Go to Top</a>
+</body>
+</html>
